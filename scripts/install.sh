@@ -1,7 +1,7 @@
 #!/bin/bash
 # export environment variables
 # echo exporting .env file
-cd ..
+#cd ..
 # source .env
 # compile the code
 echo Compiling the code
