@@ -13,9 +13,6 @@ if ! make geth; then
   exit 1
 fi
 
-if ! -d node-dir; then
-  ./build/bin/geth account new --datadir ./node-dir
-fi
 
 
 
