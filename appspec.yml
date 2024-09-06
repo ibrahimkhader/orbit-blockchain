@@ -5,8 +5,8 @@ files:
     destination: /var/app
 file_exists_behavior: OVERWRITE
 hooks:
-BeforeInstall:
-    - location: scripts/pre_start.sh
-    timeout: 600
+Install:
+    - location: scripts/install.sh
+    timeout: 300
     runas: root
 
