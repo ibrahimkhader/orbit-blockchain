@@ -13,6 +13,3 @@ if ! make geth; then
   exit 1
 fi
 
-
-
-
